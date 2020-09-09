@@ -11,6 +11,10 @@ pipeline {
             steps {
                 echo 'Compile the source code' 
             }
+        stage('Compile') {
+            steps {
+                echo 'Compile the source code' 
+            }
         }
         stage('Security Check') {
             steps {
